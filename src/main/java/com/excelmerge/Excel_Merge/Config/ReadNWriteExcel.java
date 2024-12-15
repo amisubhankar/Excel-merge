@@ -8,8 +8,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 public class ReadNWriteExcel {
-    static final String path1 = "./src/Excel Merge/SANJAY_GSTR1_NOV_2024.xlsx";
-    static final String path2 = "./src/Excel Merge/BM_GSTR1_NOV_2024.xlsx";
+    static final String path1 = "./src/Excel Merge/SM_01.xlsx";
+    static final String path2 = "./src/Excel Merge/SM_02.xlsx";
     public void test(){
         try {
             FileInputStream file = new FileInputStream(new File(path1));
